@@ -1,0 +1,75 @@
+.col2__wrapper {
+  position: absolute;
+  right: -2%;
+  top: 0;
+  height: 100vh;
+  width: 50rem;
+  background: var(--main-color);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: var(--light-one);
+  opacity: 0.5;
+  position: absolute;
+  top: -5%;
+  left: -8%;
+}
+.circle__innerCircle {
+  background: var(--main-color);
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+}
+.circle__dotted {
+  height: 320px;
+  width: 320px;
+  border: 4px dashed var(--light-one);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -12%;
+  right: -13%;
+}
+.circle__two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background: var(--light-one);
+  opacity: 0.5;
+  position: absolute;
+  bottom: -6%;
+  right: -6%;
+}
+.circle__inner__two {
+  background: var(--main-color);
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+}
+.phone__img {
+  width: 560px !important;
+  position: absolute;
+  z-index: 777;
+  animation: move__phone 8s alternate-reverse infinite;
+}
+@keyframes move__phone {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}

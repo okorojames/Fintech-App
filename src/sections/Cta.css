@@ -1,0 +1,29 @@
+.cta__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 8rem;
+}
+.cta__context {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.cta__context__h2 {
+  font-size: 3.2rem;
+}
+.cta__context__p {
+  font-size: 1.6rem;
+}
+.cta__btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--main-color);
+  box-shadow: 0 0 0 1.5px var(--main-color);
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  align-self: start;
+}

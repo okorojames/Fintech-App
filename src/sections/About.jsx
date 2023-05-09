@@ -7,7 +7,7 @@ import { RiShoppingBasket2Line } from "react-icons/ri";
 
 const About = () => {
   return (
-    <div className="about__container">
+    <div id="product" className="about__container">
       <div className="about__context">
         <h2 className="about__context__h2">For your finances</h2>
         <p className="about__context__p">

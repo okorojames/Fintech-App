@@ -1,0 +1,49 @@
+.cto__container {
+  position: relative;
+  background: linear-gradient(111.32deg, #1464f3 -1.01%, #000000 115.88%);
+  color: var(--light-one);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  min-height: 800px;
+}
+.cto__context {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  z-index: 2;
+}
+.cto .download {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 2rem;
+}
+.cto .download__btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--light-one);
+  box-shadow: 0 0 0 1.5px var(--light-one);
+  border-radius: 1rem;
+  padding: 0.8rem 1.6rem;
+  transition: 0.6s;
+}
+.cto .downaload__context {
+  font-size: 1.4rem;
+  color: var(--light-one);
+}
+.cto .downaload__context p:nth-child(2) {
+  color: var(--light-one);
+}
+.cto__img {
+  z-index: 2;
+  animation: move__phone 8s alternate-reverse infinite;
+}
+.cto__floatImg {
+  position: absolute;
+  width: 650px;
+  right: 0%;
+}

@@ -25,6 +25,10 @@ body {
   overflow-x: hidden;
   margin-bottom: 100px;
 }
-.app__container {
+header,
+.home__container,
+.about__container,
+.cta__container,
+.cto__container {
   padding: 0 4rem;
 }

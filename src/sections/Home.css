@@ -1,7 +1,8 @@
 .home__container {
-  height: 100vh;
+  min-height: calc(100vh - 92px);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   align-items: center;
+  margin-bottom: 2rem;
 }

@@ -1,5 +1,5 @@
 import "./HomeCol2.css";
-import svgIcon from "../assets/img/Group-14.svg";
+import img from "../assets/img/image-1.png";
 
 const HomeCol2 = () => {
   return (
@@ -12,7 +12,7 @@ const HomeCol2 = () => {
         <div className="circle__inner__two"></div>
       </div>
 
-      <img src={svgIcon} alt="" className="phone__img" />
+      <img src={img} alt="" className="phone__img" />
     </div>
   );
 };

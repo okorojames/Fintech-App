@@ -1,5 +1,6 @@
 import { BiChevronDown } from "react-icons/bi";
 import "./Navbar.css";
+import Home from "./Home";
 
 const Navbar = () => {
   return (

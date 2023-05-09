@@ -23,6 +23,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.8rem;
   overflow-x: hidden;
+  margin-bottom: 100px;
 }
 .app__container {
   padding: 0 4rem;

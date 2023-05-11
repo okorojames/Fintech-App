@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useRef } from "react";
 import { BiChevronUp } from "react-icons/bi";
 
 const BtTop = () => {
+  const btnTop = useRef();
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 80) {
+      btnTop.current.style.display = "block";
+    } else {
+      btnTop.current.style.display = "none";
+    }
+  });
   const handleScroll = () => {
     scrollTo(0, 0);
   };
   return (
-    <div>
+    <div ref={btnTop} style={{ display: "none" }}>
       <BiChevronUp
         style={{
           position: "fixed",

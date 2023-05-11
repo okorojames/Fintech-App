@@ -32,3 +32,8 @@
   font-weight: 400;
   font-weight: 500;
 }
+@media screen and (max-width: 992px) {
+  .steps__row {
+    grid-template-columns: 1fr;
+  }
+}

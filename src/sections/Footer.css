@@ -1,7 +1,7 @@
 .footer__container {
   margin-top: 6rem;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 10rem !important;
+  padding-bottom: 10rem !important;
   background: linear-gradient(111.32deg, #1464f3 -1.01%, #000000 115.88%);
   color: var(--light-one);
 }
@@ -63,4 +63,18 @@
 .footer__context a {
   color: var(--light-one);
   text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+  .footer.download__btn {
+    font-size: 1rem;
+  }
+  .footer__row {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .footer__col2 {
+    flex-direction: column;
+    gap: 3rem;
+  }
 }

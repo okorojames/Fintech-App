@@ -24,6 +24,14 @@ body {
   font-size: 1.8rem;
   overflow-x: hidden;
 }
+body::-webkit-scrollbar {
+  width: 0.8rem;
+  background: rgb(247, 238, 238);
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 10rem;
+}
 header,
 .home__container,
 .about__container,
@@ -32,4 +40,56 @@ header,
 .steps__container,
 .footer__container {
   padding: 0 4rem;
+}
+@media screen and (max-width: 992px) {
+  .cto__container {
+    text-align: center;
+    grid-template-columns: 1fr;
+    padding-top: 6rem;
+  }
+  .about__rows {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 676px) {
+  .about__rows {
+    width: 70%;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 876px) {
+  header,
+  .home__container,
+  .about__container,
+  .cta__container,
+  .cto__container,
+  .steps__container,
+  .footer__container {
+    padding: 0 2rem;
+  }
+  .cta__btn {
+    align-self: center;
+  }
+  .cta__context {
+    text-align: center;
+  }
+  .cta__container {
+    grid-template-columns: 1fr;
+  }
+  .cto__floatImg {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer__row {
+    text-align: center;
+  }
+  .download {
+    flex-direction: column;
+  }
+  .about__rows {
+    width: 90%;
+  }
 }

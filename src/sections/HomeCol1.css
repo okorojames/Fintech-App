@@ -70,3 +70,11 @@
 .users__star {
   color: rgb(251, 231, 11);
 }
+@media screen and (max-width: 992px) {
+  .download {
+    justify-content: center;
+  }
+  .users {
+    justify-content: center;
+  }
+}

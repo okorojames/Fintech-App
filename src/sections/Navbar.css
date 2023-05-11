@@ -46,7 +46,7 @@ nav {
   border-radius: 1.5rem;
   margin-right: 2.5rem;
 }
-.navLinks__btn.download {
+.navLinks__btn.download__btn {
   background: transparent;
   padding: 0.7rem 2rem;
   border-radius: 1.5rem;

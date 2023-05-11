@@ -22,7 +22,10 @@ const Navbar = () => {
           <a className="navLinks__link navLinks__btn register" href="#support">
             Register
           </a>
-          <a className="navLinks__link navLinks__btn download" href="#support">
+          <a
+            className="navLinks__link navLinks__btn download__btn"
+            href="#support"
+          >
             Download
           </a>
         </div>

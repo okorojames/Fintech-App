@@ -23,12 +23,13 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.8rem;
   overflow-x: hidden;
-  margin-bottom: 100px;
 }
 header,
 .home__container,
 .about__container,
 .cta__container,
-.cto__container {
+.cto__container,
+.steps__container,
+.footer__container {
   padding: 0 4rem;
 }

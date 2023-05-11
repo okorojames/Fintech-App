@@ -3,13 +3,36 @@ import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { SiAppstore } from "react-icons/si";
 import { BsStarFill } from "react-icons/bs";
 import profileImg from "../assets/img/image-2.png";
+import Typed from "typed.js";
+import { useRef, useEffect } from "react";
 
 const HomeCol1 = () => {
+  //
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Today!", "Now!"], // Strings to display
+      // Speed settings, try diffrent values untill you get good results
+      startDelay: 300,
+      typeSpeed: 90,
+      backSpeed: 90,
+      backDelay: 100,
+      loop: true,
+      showCursor: true,
+    });
+
+    // Destropying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+  //
   return (
     <div className="col1__wrapper">
       <h2 className="col1__h2">
         Revolutionize your <span className="finances">Finances:</span>{" "}
-        Experience the Future of Banking Today
+        Experience the Future of Banking <span ref={el}></span>
       </h2>
       <p className="col1__p">
         Join the Fintech Movement and Take Control <br /> of Your Financial

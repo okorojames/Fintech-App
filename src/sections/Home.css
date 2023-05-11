@@ -6,3 +6,8 @@
   align-items: center;
   margin-bottom: 2rem;
 }
+@media screen and (max-width: 992px) {
+  .col2__wrapper {
+    display: none !important;
+  }
+}

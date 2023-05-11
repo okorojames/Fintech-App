@@ -58,6 +58,9 @@ header,
     grid-template-columns: 1fr;
     justify-content: center;
   }
+  .about__context {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 876px) {
   header,
@@ -91,5 +94,13 @@ header,
   }
   .about__rows {
     width: 90%;
+  }
+  .navLinks {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .navLinks {
+    width: 85%;
   }
 }

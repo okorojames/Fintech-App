@@ -1,4 +1,5 @@
 import About from "./sections/About";
+import BtTop from "./sections/BtTop";
 import Cta from "./sections/Cta";
 import Cto from "./sections/Cto";
 import Footer from "./sections/Footer";
@@ -16,6 +17,7 @@ function App() {
       <Cto />
       <Steps />
       <Footer />
+      <BtTop />
     </div>
   );
 }

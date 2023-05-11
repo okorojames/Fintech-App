@@ -98,6 +98,9 @@ header,
   .navLinks {
     width: 60%;
   }
+  .users {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 376px) {
   .navLinks {
